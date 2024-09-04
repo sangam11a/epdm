@@ -20,11 +20,11 @@ static int num_instances = 0;
 static int total_blocks = 0;
 static mtd_instance_s *instances[MAX_MTD_INSTANCES]={};
 
-// static const cubus_mft_device_t spi3_dev = {             // MT25QL on FMUM 1Gb 2048 X 64K
-// 	.type = SPI,
-//   .bus_id   = 3,
-// 	.devid    = SPIDEV_FLASH(0)
-// };
+static const cubus_mft_device_t spi3_dev = {             // MT25QL on FMUM 1Gb 2048 X 64K
+	.type = SPI,
+  .bus_id   = 2,
+	.devid    = SPIDEV_FLASH(0)
+};
 
 static const cubus_mft_device_t spi2_dev = {             // MT25QL on FMUM 1Gb 2048 X 64K
   .type = SPI,
@@ -32,23 +32,23 @@ static const cubus_mft_device_t spi2_dev = {             // MT25QL on FMUM 1Gb 2
   .devid    = SPIDEV_FLASH(0)
 };
 
-// static const cubus_mtd_entry_t cubus_mfm = {
-// 	.device = &spi3_dev,
-// 	.npart = 2,
-// 	.partd = {
-// 		{
-// 			.type = MTD_MAINSTORAGE,		// storage space for  HK data logging, flag data storage, reservation table.
-// 			.path = "/fs/mfm/mtd_mainstorage",
-// 			// .nblocks = 51200				// 12.5MB in no of pages, each page having 256 bytes
-// 			.nblocks = 262144				// 64 MB in no of pages
-// 		},
-// 		{					
-// 			.type = MTD_MISSION,			// storage space for missions
-// 			.path = "/fs/mfm/mtd_mission",	
-// 			.nblocks = 262144				// 64 MB in no of pages
-// 		}
-// 	},
-// };
+static const cubus_mtd_entry_t cubus_mfm = {
+	.device = &spi3_dev,
+	.npart = 2,
+	.partd = {
+		{
+			.type = MTD_MAINSTORAGE,		// storage space for  HK data logging, flag data storage, reservation table.
+			.path = "/fs/mfm/mtd_mainstorage",
+			// .nblocks = 51200				// 12.5MB in no of pages, each page having 256 bytes
+			.nblocks = 262144				// 64 MB in no of pages
+		},
+		{					
+			.type = MTD_MISSION,			// storage space for missions
+			.path = "/fs/mfm/mtd_mission",	
+			.nblocks = 262144				// 64 MB in no of pages
+		}
+	},
+};
 
 static const cubus_mtd_entry_t cubus_sfm = {
 	.device = &spi2_dev,
@@ -70,8 +70,8 @@ static const cubus_mtd_entry_t cubus_sfm = {
 static const cubus_mtd_manifest_t board_mtd_config = {
 	.nconfigs   = 1,
 	.entries = {
-		// &cubus_mfm,
-		&cubus_sfm,
+		&cubus_mfm,
+		// &cubus_sfm,
 	}
 };
 
@@ -117,7 +117,6 @@ int mt25ql_attach(mtd_instance_s *instance)
 		SPI_SETMODE(spi, SPIDEV_MODE0);
 		SPI_SELECT(spi, instance->devid, false);
 		SPI_LOCK(spi, false);
-
 		instance->mtd_dev = mt25ql_initialize(spi);
 
 		if (instance->mtd_dev) {
@@ -461,8 +460,11 @@ int cubus_mtd_query(const char *sub, const char *val, const char **get)
 
 int cubus_mft_configure(const cubus_mft_s *mft_p)
 {
+    	printf("NFMT : %d\n",mft_p->nmft);
 
 	if (mft_p != NULL) {
+		printf("Inside mft_configure\n");
+
 		for (uint32_t m = 0; m < mft_p->nmft; m++) {
 			switch (mft_p->mfts[m]->type) {
 			case MTD:
@@ -474,6 +476,9 @@ int cubus_mft_configure(const cubus_mft_s *mft_p)
 				break;
 			}
 		}
+	}
+	else{
+		printf("Error in cubus mft_configure\n");
 	}
 
 	return 0;

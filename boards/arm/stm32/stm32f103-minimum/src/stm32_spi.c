@@ -222,7 +222,7 @@ void stm32_spi2select(struct spi_dev_s *dev, uint32_t devid,
       stm32_gpiowrite(GPIO_CS_MAG, !selected);
       break;
   }
- }
+}
 
 uint8_t stm32_spi2status(struct spi_dev_s *dev, uint32_t devid)
 {

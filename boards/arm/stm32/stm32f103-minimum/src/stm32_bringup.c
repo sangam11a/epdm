@@ -29,6 +29,7 @@
 #include <syslog.h>
 #include <debug.h>
 #include <errno.h>
+#include <stdio.h>
 
 #include <nuttx/board.h>
 #include <nuttx/fs/fs.h>
@@ -220,9 +221,14 @@ static int g_sensor_devno;
 
 int stm32_bringup(void)
 {
-  syslog(LOG_SYSLOG, "[Bringup function] called\n");
-  stm32_configgpio(GPIO_CS_MAG);
+  syslog(LOG_SYSLOG, "**********************************\n********[Bringup function] called\n");
+  int ret1 = stm32_configgpio(GPIO_CS_MAG);
   stm32_gpiowrite(GPIO_CS_MAG, true);
+  int ret2 = stm32_gpioread(GPIO_CS_MAG);
+  syslog(LOG_SYSLOG,"here ret 1 is %d &&ret2 is %d\n",ret1 , ret2);
+  // stm32_gpiowrite(GPIO_CS_MAG, true);
+  // stm32_gpiowrite(GPIO_CS_MAG,false);
+
   #ifdef CONFIG_STM32_SPI2
   /* Get the SPI port */
 
@@ -238,7 +244,9 @@ int stm32_bringup(void)
     }
     #if defined(CONFIG_MTD_MT25QL)
       syslog(LOG_SYSLOG, "Configuring the sfm process\n");
-      cubus_mft_configure(board_get_manifest());
+  //     printf("%d %s \n", board_get_manifest()->nmft ,
+	// board_get_manifest()->mfts);
+      //  cubus_mft_configure(board_get_manifest());
       syslog(LOG_SYSLOG, "Completing the sfm process\n");
 
     #endif

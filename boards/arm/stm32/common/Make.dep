@@ -563,9 +563,7 @@ cubus_mtd.o: board/cubus_mtd.c \
  /home/sumina/nuttxspace/nuttx/include/arch/chip/chip.h \
  /home/sumina/nuttxspace/nuttx/include/nuttx/net/net.h \
  /home/sumina/nuttxspace/nuttx/include/sys/mount.h \
- /home/sumina/nuttxspace/nuttx/include/nuttx/spi/spi.h \
- /home/sumina/nuttxspace/nuttx/arch/arm/src/board/board/stm32f103_minimum.h \
- board/cubus_mtd.h \
+ /home/sumina/nuttxspace/nuttx/include/nuttx/spi/spi.h board/cubus_mtd.h \
  /home/sumina/nuttxspace/nuttx/arch/arm/src/chip/stm32_gpio.h \
  /home/sumina/nuttxspace/nuttx/arch/arm/src/chip/chip.h \
  /home/sumina/nuttxspace/nuttx/include/arch/stm32/irq.h \

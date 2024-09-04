@@ -35,8 +35,6 @@
 #include <unistd.h>
 #include <errno.h>
 #include <debug.h>
-#include <stdio.h>
-#include <syslog.h>
 
 #include <nuttx/kmalloc.h>
 #include <nuttx/signal.h>
@@ -1274,8 +1272,6 @@ FAR struct mtd_dev_s *mt25ql_initialize(FAR struct spi_dev_s *dev)
   int ret;
 
   finfo("dev: %p\n", dev);
-  syslog(LOG_SYSLOG, "dev: %p\n", dev);
-
 
   /* Allocate a state structure (we allocate the structure instead of using
    * a fixed, static allocation so that we can handle multiple FLASH devices.
@@ -1309,7 +1305,6 @@ FAR struct mtd_dev_s *mt25ql_initialize(FAR struct spi_dev_s *dev)
       /* Identify the FLASH chip and get its capacity */
 
       ret = mt25ql_readid(priv);
-	  syslog(LOG_SYSLOG, "ID of the flash memory is %d\n",ret);
       if (ret != OK)
         {
           /* Unrecognized!

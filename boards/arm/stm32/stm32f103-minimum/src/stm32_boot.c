@@ -32,14 +32,14 @@
 #include <syslog.h>
 
 #include "arm_internal.h"
-#include "stm32f103_minimum.h"
+// #include "stm32f103_minimum.h"
 
-#include "stm32_gpio.h"
+// #include "stm32_gpio.h"
 /****************************************************************************
  * Public Functions
  ****************************************************************************/
 void board_peripheral_reset(int ms){
-  stm32_gpiowrite(GPIO_CS_MAG, 1);
+  // stm32_gpiowrite(GPIO_CS_MAG, 1);
   usleep(1000 * ms);
   syslog(LOG_DEBUG, "Reset done in %d ms \n", ms);
   printf("Reset done.\n");
@@ -69,11 +69,11 @@ void stm32_boardinitialize(void)
   syslog(LOG_SYSLOG,"Initializing board applications\n");
   // board_peripheral_reset(10);
   syslog(LOG_SYSLOG, "[Boot] function called \n");
+  // stm32_configgpio(GPIO_CS_MAG);
   /* Configure on-board LEDs if LED support has been selected. */
-stm32_configgpio(GPIO_CS_MAG);
-#ifdef CONFIG_ARCH_LEDS
-  board_autoled_initialize();
-#endif
+// int ret = stm32_configgpio(GPIO_CS_MAG);
+// printf("returned value %d while configuring gpiopin\n",ret);
+
 
   /* Configure SPI chip selects if
    * 1) SPI is not disabled, and
