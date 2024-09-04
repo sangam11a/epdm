@@ -1,0 +1,6 @@
+task_create.c:74:5:nxthread_create	40	static
+sched.h:991:5:nxtask_create	40	static
+sched.h:225:8:task_create_with_stack	24	static
+sched.h:223:8:task_create	16	static
+kthread.h:77:5:kthread_create_with_stack	24	static
+kthread.h:105:5:kthread_create	16	static

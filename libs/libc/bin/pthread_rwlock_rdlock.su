@@ -1,0 +1,4 @@
+pthread.h:699:5:pthread_rwlock_tryrdlock	16	static
+pthread.h:696:5:pthread_rwlock_clockrdlock	24	static
+pthread.h:694:5:pthread_rwlock_timedrdlock	0	static
+pthread.h:693:5:pthread_rwlock_rdlock	0	static

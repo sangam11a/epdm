@@ -1,0 +1,3 @@
+lib_memoutstream.c:37:12:memoutstream_puts	16	static
+lib_memoutstream.c:67:13:memoutstream_putc	16	static
+streams.h:340:6:lib_memoutstream	0	static

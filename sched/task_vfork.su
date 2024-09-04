@@ -1,0 +1,3 @@
+sched.h:1109:24:nxtask_setup_vfork	40	static
+sched.h:1110:7:nxtask_start_vfork	24	static
+sched.h:1111:6:nxtask_abort_vfork	8	static

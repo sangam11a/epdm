@@ -1,0 +1,2 @@
+fs_foreachinode.c:78:12:foreach_inodelevel	32	static
+fs_foreachinode.c:165:5:foreach_inode	16	static

@@ -1,0 +1,5 @@
+ramdisk.c:338:12:rd_ioctl	0	static
+ramdisk.c:300:12:rd_geometry	8	static
+ramdisk.c:262:16:rd_write	16	static
+ramdisk.c:228:16:rd_read	16	static
+ramdisk.h:80:5:ramdisk_register	40	static

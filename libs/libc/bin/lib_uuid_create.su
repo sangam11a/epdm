@@ -1,0 +1,2 @@
+lib_uuid_create.c:34:12:uuid_getrandom.constprop	24	static
+uuid.h:91:10:uuid_create	24	static

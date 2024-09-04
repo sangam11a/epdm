@@ -1,0 +1,2 @@
+semaphore.h:252:5:nxsem_trywait	0	static
+semaphore.h:170:12:sem_trywait	8	static

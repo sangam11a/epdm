@@ -1,0 +1,4 @@
+msginternal.c:106:6:nxmsg_initialize	16	static
+msginternal.c:127:5:nxmsg_alloc	32	static
+msginternal.c:152:6:nxmsg_free	24	static
+msginternal.c:180:20:nxmsg_lookup	0	static

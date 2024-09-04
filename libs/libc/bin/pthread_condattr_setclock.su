@@ -1,0 +1,1 @@
+pthread.h:628:5:pthread_condattr_setclock	0	static

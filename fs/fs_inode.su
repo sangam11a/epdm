@@ -1,0 +1,3 @@
+fs_inode.c:63:6:inode_initialize	0	static
+fs_inode.c:78:5:inode_lock	0	static
+fs_inode.c:91:6:inode_unlock	0	static

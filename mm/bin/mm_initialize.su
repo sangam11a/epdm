@@ -1,0 +1,3 @@
+mm.h:170:6:mm_addregion	16	static
+mm.h:168:23:mm_initialize	16	static
+mm.h:172:6:mm_uninitialize	0	static

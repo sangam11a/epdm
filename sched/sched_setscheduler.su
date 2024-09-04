@@ -1,0 +1,2 @@
+sched.h:1336:5:nxsched_set_scheduler	16	static
+sched.h:240:8:sched_setscheduler	8	static

@@ -1,0 +1,3 @@
+mqueue.h:508:5:file_mq_unlink	112	static
+mqueue.h:232:5:nxmq_unlink	0	static
+mqueue.h:73:9:mq_unlink	8	static

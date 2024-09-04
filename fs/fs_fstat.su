@@ -1,0 +1,2 @@
+fs.h:1459:5:file_fstat	112	static
+stat.h:181:5:fstat	24	static

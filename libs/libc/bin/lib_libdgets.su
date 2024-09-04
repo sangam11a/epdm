@@ -1,0 +1,2 @@
+lib_libdgets.c:57:13:consume_eol.part.0	16	static
+lib_libdgets.c:98:11:lib_dgets	40	static

@@ -1,0 +1,2 @@
+fixedmath.h:255:8:ub32sqrtub16	24	static
+fixedmath.h:257:7:ub16sqrtub8	0	static

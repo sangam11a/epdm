@@ -1,0 +1,2 @@
+fs.h:1295:9:file_sendfile	48	static
+sendfile.h:107:9:sendfile	32	static

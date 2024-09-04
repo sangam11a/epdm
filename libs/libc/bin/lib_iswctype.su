@@ -1,0 +1,13 @@
+wctype.h:103:19:iswalpha	0	static
+wctype.h:102:19:iswalnum	8	static
+wctype.h:104:19:iswblank	0	static
+wctype.h:105:19:iswcntrl	0	static
+wctype.h:107:19:iswdigit	0	static
+wctype.h:109:19:iswlower	8	static
+wctype.h:110:19:iswprint	0	static
+wctype.h:112:19:iswspace	0	static
+wctype.h:108:19:iswgraph	8	static
+wctype.h:111:19:iswpunct	8	static
+wctype.h:113:19:iswupper	8	static
+wctype.h:114:19:iswxdigit	0	static
+wctype.h:106:19:iswctype	0	static

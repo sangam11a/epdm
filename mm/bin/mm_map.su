@@ -1,0 +1,8 @@
+map.h:104:5:mm_map_lock	8	static
+map.h:120:6:mm_map_unlock	8	static
+map.h:137:6:mm_map_initialize	0	static
+map.h:153:6:mm_map_destroy	16	static
+map.h:213:5:mm_map_add	24	static
+map.h:233:28:mm_map_next	16	static
+map.h:252:28:mm_map_find	24	static
+map.h:279:5:mm_map_remove	24	static

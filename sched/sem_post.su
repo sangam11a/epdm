@@ -1,0 +1,2 @@
+semaphore.h:402:5:nxsem_post	16	static
+semaphore.h:171:12:sem_post	8	static

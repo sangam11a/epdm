@@ -1,0 +1,2 @@
+pthread_create.c:117:13:pthread_start	8	static
+pthread.h:146:5:nx_pthread_create	40	static

@@ -1,0 +1,2 @@
+semaphore.h:430:5:nxsem_get_value	0	static
+semaphore.h:172:12:sem_getvalue	8	static

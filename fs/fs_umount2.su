@@ -1,0 +1,2 @@
+fs.h:755:5:nx_umount2	56	static
+mount.h:96:5:umount2	8	static

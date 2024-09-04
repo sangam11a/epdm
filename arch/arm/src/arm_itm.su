@@ -1,0 +1,3 @@
+arm_itm.c:102:10:itm_sendchar	0	static
+arm_itm.c:127:9:itm_receivechar	0	static
+arm_itm.c:155:9:itm_checkchar	0	static

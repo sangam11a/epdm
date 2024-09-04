@@ -1,0 +1,2 @@
+fs_inoderemove.c:57:19:inode_unlink	40	static
+fs_inoderemove.c:119:5:inode_remove	8	static

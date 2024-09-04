@@ -1,0 +1,2 @@
+obstack.h:360:11:obstack_finish	16	static
+obstack.h:377:11:obstack_finish_norealloc	0	static

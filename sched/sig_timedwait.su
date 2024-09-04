@@ -1,0 +1,3 @@
+sig_timedwait.c:76:13:nxsig_timeout	16	static
+signal.h:480:5:nxsig_timedwait	56	static
+signal.h:378:6:sigtimedwait	8	static

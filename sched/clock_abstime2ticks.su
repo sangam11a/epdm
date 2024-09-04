@@ -1,0 +1,2 @@
+clock.h:285:5:clock_timespec_compare	0	static
+clock_abstime2ticks.c:82:5:clock_abstime2ticks	32	static

@@ -1,0 +1,3 @@
+fs_inodereserve.c:78:26:inode_alloc.isra.0	8	static
+fs_inodereserve.c:142:6:inode_root_reserve	8	static
+fs_inodereserve.c:172:5:inode_reserve	56	static

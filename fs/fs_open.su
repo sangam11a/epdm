@@ -1,0 +1,7 @@
+fs_open.c:288:5:inode_checkflags	0	static
+fs_open.c:73:12:file_vopen	64	static
+fs_open.c:237:12:nx_vopen	56	static
+fs.h:918:5:file_open	24	static
+fs.h:943:5:nx_open_from_tcb	16	static
+fs.h:962:5:nx_open	20	static
+fcntl.h:199:5:open	20	static

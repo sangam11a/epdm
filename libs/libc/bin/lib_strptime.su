@@ -1,0 +1,3 @@
+lib_strptime.c:106:12:_conv_num	32	static
+lib_strptime.c:141:33:_strptime	56	static
+time.h:217:11:strptime	16	static

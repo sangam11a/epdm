@@ -1,0 +1,3 @@
+lib_timegm.c:66:13:adjust	0	static
+time.h:206:8:timegm	32	static
+time.h:207:8:mktime	0	static

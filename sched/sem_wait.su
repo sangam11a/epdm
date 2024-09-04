@@ -1,0 +1,3 @@
+semaphore.h:226:5:nxsem_wait	24	static
+semaphore.h:537:5:nxsem_wait_uninterruptible	8	static
+semaphore.h:166:12:sem_wait	8	static

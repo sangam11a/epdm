@@ -1,0 +1,1 @@
+pthread.h:683:5:pthread_rwlockattr_getpshared	0	static

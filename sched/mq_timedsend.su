@@ -1,0 +1,4 @@
+mq_timedsend.c:66:13:nxmq_sndtimeout	8	static
+mqueue.h:583:5:file_mq_timedsend	64	static
+mqueue.h:307:5:nxmq_timedsend	32	static
+mqueue.h:76:9:mq_timedsend	16	static

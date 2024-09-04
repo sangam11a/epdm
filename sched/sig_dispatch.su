@@ -1,0 +1,2 @@
+sig_dispatch.c:317:5:nxsig_tcbdispatch	32	static
+sig_dispatch.c:578:5:nxsig_dispatch	16	static

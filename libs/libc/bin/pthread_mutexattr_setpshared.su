@@ -1,0 +1,1 @@
+pthread.h:588:5:pthread_mutexattr_setpshared	0	static

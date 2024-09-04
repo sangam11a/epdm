@@ -1,0 +1,4 @@
+list.h:273:1:list_remove_head	0	static
+mq_sndinternal.c:137:26:nxmq_alloc_msg	8	static
+mq_sndinternal.c:213:5:nxmq_wait_send	24	static
+mq_sndinternal.c:324:5:nxmq_do_send	24	static

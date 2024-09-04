@@ -1,0 +1,2 @@
+execinfo.h:64:12:backtrace_symbols	32	static
+execinfo.h:65:6:backtrace_symbols_fd	24	static

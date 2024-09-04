@@ -1,0 +1,2 @@
+signal.h:355:6:psignal	8	static
+signal.h:356:6:psiginfo	8	static

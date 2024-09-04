@@ -1,0 +1,4 @@
+stdlib.h:171:11:atexit	0	static
+stdlib.h:172:11:at_quick_exit	0	static
+stdlib.h:173:11:on_exit	0	static
+stdlib.h:291:5:__cxa_atexit	0	static

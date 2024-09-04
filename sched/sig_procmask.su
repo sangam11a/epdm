@@ -1,0 +1,2 @@
+signal.h:313:5:nxsig_procmask	24	static
+signal.h:373:6:sigprocmask	8	static

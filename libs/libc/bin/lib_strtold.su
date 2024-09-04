@@ -1,0 +1,6 @@
+lib_strtold.c:159:13:ifallzero.constprop	0	static
+lib_strtold.c:113:18:scanexp.constprop	20	static
+lib_strtold.c:640:20:strtox	160	static
+stdlib.h:200:11:strtof	8	static
+stdlib.h:202:11:strtod	0	static
+stdlib.h:205:13:strtold	0	static

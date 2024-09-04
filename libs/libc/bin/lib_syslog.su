@@ -1,0 +1,2 @@
+syslog.h:207:6:vsyslog	16	static
+syslog.h:206:6:syslog	12	static

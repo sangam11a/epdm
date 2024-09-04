@@ -1,0 +1,2 @@
+crc8.h:60:9:crc8part	0	static
+lib_crc8.c:120:9:crc8full	0	static

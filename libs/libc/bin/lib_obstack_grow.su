@@ -1,0 +1,3 @@
+obstack.h:309:6:obstack_grow	16	static
+obstack.h:326:6:obstack_grow0	16	static
+obstack.h:341:6:obstack_1grow	16	static

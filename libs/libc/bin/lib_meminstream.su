@@ -1,0 +1,3 @@
+lib_meminstream.c:38:12:meminstream_getc	0	static
+lib_meminstream.c:64:12:meminstream_gets	16	static
+streams.h:338:6:lib_meminstream	0	static

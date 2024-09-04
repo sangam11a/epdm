@@ -1,0 +1,4 @@
+arch.h:2660:6:up_perf_init	8	static
+arch.h:2662:15:up_perf_getfreq	0	static
+arch.h:2661:15:up_perf_gettime	0	static
+arch.h:2663:6:up_perf_convert	8	static

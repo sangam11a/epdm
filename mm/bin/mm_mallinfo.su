@@ -1,0 +1,4 @@
+mm_mallinfo.c:48:13:mallinfo_handler	0	static
+mm_mallinfo.c:87:13:mallinfo_task_handler	8	static
+mm.h:318:17:mm_mallinfo	40	static
+mm.h:319:22:mm_mallinfo_task	32	static

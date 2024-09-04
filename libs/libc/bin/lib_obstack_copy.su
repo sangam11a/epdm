@@ -1,0 +1,2 @@
+obstack.h:220:11:obstack_copy	16	static
+obstack.h:239:11:obstack_copy0	16	static

@@ -1,0 +1,2 @@
+mq_rcvinternal.c:134:5:nxmq_wait_receive	32	static
+mq_rcvinternal.c:269:9:nxmq_do_receive	24	static

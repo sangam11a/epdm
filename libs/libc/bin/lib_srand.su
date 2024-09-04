@@ -1,0 +1,2 @@
+stdlib.h:133:11:srand	0	static
+lib.h:119:15:nrand	40	static

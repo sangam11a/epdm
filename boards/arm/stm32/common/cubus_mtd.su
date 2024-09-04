@@ -1,0 +1,8 @@
+cubus_mtd.c:90:20:board_get_manifest	0	static
+cubus_mtd.c:96:5:mt25ql_attach	24	static
+cubus_mtd.c:154:5:cubus_mtd_get_geometry	72	static
+cubus_mtd.c:187:9:cubus_mtd_get_partition_size	64	static
+cubus_mtd.c:213:18:cubus_mtd_get_instances	0	static
+cubus_mtd.c:220:5:cubus_mtd_config	272	static
+cubus_mtd.c:421:5:cubus_mtd_query	48	static
+cubus_mtd.c:462:5:cubus_mft_configure	16	static

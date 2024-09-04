@@ -1,0 +1,2 @@
+sched.h:1300:5:nxsched_get_scheduler	8	static
+sched.h:242:8:sched_getscheduler	8	static

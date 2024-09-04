@@ -1,0 +1,2 @@
+signal.h:181:5:nxsig_addset	0	static
+signal.h:360:6:sigaddset	8	static

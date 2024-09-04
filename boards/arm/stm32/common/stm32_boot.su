@@ -1,0 +1,3 @@
+stm32_boot.c:41:6:board_peripheral_reset	8	static
+board.h:195:5:board_app_initialize	8	static
+stm32_boot.c:67:6:stm32_boardinitialize	8	static

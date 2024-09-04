@@ -1,0 +1,3 @@
+panic_notifier.h:59:6:panic_notifier_chain_register	12	static
+panic_notifier.h:72:6:panic_notifier_chain_unregister	0	static
+panic_notifier.h:86:6:panic_notifier_call_chain	24	static

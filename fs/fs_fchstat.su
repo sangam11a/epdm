@@ -1,0 +1,5 @@
+fs.h:1501:5:file_fchstat	24	static
+fs_fchstat.c:44:12:fchstat	24	static
+stat.h:186:5:fchmod	72	static
+unistd.h:332:9:fchown	72	static
+stat.h:192:5:futimens	72	static

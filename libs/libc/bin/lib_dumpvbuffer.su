@@ -1,0 +1,5 @@
+lib_dumpvbuffer.c:78:13:lib_dumpvbuffer_handler	12	static
+lib_dumpvbuffer.c:96:13:lib_dumpvfile_handler	12	static
+debug.h:1109:6:lib_dumpvhandler	112	static
+debug.h:1120:6:lib_dumpvbuffer	16	static
+debug.h:1130:6:lib_dumpvfile	24	static

@@ -1,0 +1,8 @@
+fs_chstat.c:114:12:chstat.isra.0	56	static
+stat.h:184:5:chmod	72	static
+stat.h:185:5:lchmod	0	static
+unistd.h:380:9:chown	72	static
+unistd.h:381:9:lchown	0	static
+stat.h:188:5:utimens	72	static
+stat.h:191:5:lutimens	0	static
+fs_chstat.c:413:5:inode_chstat	0	static

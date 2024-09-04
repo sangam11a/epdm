@@ -1,0 +1,3 @@
+semaphore.h:298:5:nxsem_timedwait	0	static
+semaphore.h:568:5:nxsem_timedwait_uninterruptible	0	static
+semaphore.h:167:12:sem_timedwait	0	static

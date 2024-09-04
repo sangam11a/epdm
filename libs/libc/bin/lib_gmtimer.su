@@ -1,0 +1,2 @@
+time.h:210:16:gmtime_r	56	static
+time.h:213:16:localtime_r	0	static

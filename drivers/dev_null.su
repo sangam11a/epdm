@@ -1,0 +1,4 @@
+dev_null.c:73:16:devnull_read	0	static
+dev_null.c:87:16:devnull_write	0	static
+dev_null.c:100:12:devnull_poll	16	static
+drivers.h:70:6:devnull_register	0	static

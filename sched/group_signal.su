@@ -1,0 +1,2 @@
+group_signal.c:74:12:group_signal_handler	16	static
+group_signal.c:197:5:group_signal	40	static

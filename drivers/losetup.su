@@ -1,0 +1,7 @@
+losetup.c:282:12:loop_geometry	8	static
+losetup.c:235:16:loop_write	24	static
+losetup.c:182:16:loop_read	24	static
+losetup.c:145:12:loop_close	16	static
+losetup.c:108:12:loop_open	16	static
+loop.h:115:5:losetup	96	static
+loop.h:126:5:loteardown	24	static

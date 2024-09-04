@@ -68,10 +68,10 @@ static const cubus_mtd_entry_t cubus_sfm = {
 };
 
 static const cubus_mtd_manifest_t board_mtd_config = {
-	.nconfigs   = 1,
+	.nconfigs   = 2,
 	.entries = {
 		&cubus_mfm,
-		// &cubus_sfm,
+		&cubus_sfm,
 	}
 };
 
@@ -117,6 +117,7 @@ int mt25ql_attach(mtd_instance_s *instance)
 		SPI_SETMODE(spi, SPIDEV_MODE0);
 		SPI_SELECT(spi, instance->devid, false);
 		SPI_LOCK(spi, false);
+
 		instance->mtd_dev = mt25ql_initialize(spi);
 
 		if (instance->mtd_dev) {
@@ -460,11 +461,8 @@ int cubus_mtd_query(const char *sub, const char *val, const char **get)
 
 int cubus_mft_configure(const cubus_mft_s *mft_p)
 {
-    	printf("NFMT : %d\n",mft_p->nmft);
 
 	if (mft_p != NULL) {
-		printf("Inside mft_configure\n");
-
 		for (uint32_t m = 0; m < mft_p->nmft; m++) {
 			switch (mft_p->mfts[m]->type) {
 			case MTD:
@@ -476,9 +474,6 @@ int cubus_mft_configure(const cubus_mft_s *mft_p)
 				break;
 			}
 		}
-	}
-	else{
-		printf("Error in cubus mft_configure\n");
 	}
 
 	return 0;

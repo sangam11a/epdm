@@ -1,0 +1,2 @@
+signal.h:271:10:nxsig_pendingset	32	static
+signal.h:372:6:sigpending	24	static

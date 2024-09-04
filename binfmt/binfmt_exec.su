@@ -1,0 +1,2 @@
+binfmt.h:371:5:exec_spawn	40	static
+binfmt.h:335:5:exec	24	static

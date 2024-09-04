@@ -1,0 +1,2 @@
+ether.h:53:11:ether_ntoa_r	24	static
+ether.h:52:11:ether_ntoa	0	static

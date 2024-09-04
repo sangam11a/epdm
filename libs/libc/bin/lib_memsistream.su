@@ -1,0 +1,4 @@
+lib_memsistream.c:37:12:memsistream_getc	0	static
+lib_memsistream.c:93:14:memsistream_seek	0	static
+lib_memsistream.c:64:12:memsistream_gets	16	static
+streams.h:342:6:lib_memsistream	0	static

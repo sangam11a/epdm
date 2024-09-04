@@ -1,0 +1,3 @@
+lib_zeroinstream.c:33:12:zeroinstream_getc	0	static
+lib_zeroinstream.c:39:12:zeroinstream_gets	8	static
+streams.h:490:6:lib_zeroinstream	0	static

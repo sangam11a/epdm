@@ -1,0 +1,13 @@
+stm32f10xxf30xx_flash.c:81:13:flash_unlock.constprop	8	static
+stm32f10xxf30xx_flash.c:106:5:stm32_flash_unlock	8	static
+stm32f10xxf30xx_flash.c:125:5:stm32_flash_lock	8	static
+progmem.h:80:8:up_progmem_pagesize	0	static
+progmem.h:90:8:up_progmem_erasesize	0	static
+progmem.h:110:9:up_progmem_getpage	0	static
+progmem.h:126:8:up_progmem_getaddress	0	static
+progmem.h:60:8:up_progmem_neraseblocks	0	static
+progmem.h:70:6:up_progmem_isuniform	0	static
+progmem.h:170:9:up_progmem_ispageerased	8	static
+progmem.h:150:9:up_progmem_eraseblock	16	static
+progmem.h:202:9:up_progmem_write	32	static
+progmem.h:245:9:up_progmem_erasestate	0	static

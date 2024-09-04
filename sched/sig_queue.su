@@ -1,0 +1,2 @@
+signal.h:376:5:nxsig_queue	24	static
+signal.h:374:6:sigqueue	8	static

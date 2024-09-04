@@ -1,0 +1,2 @@
+wchar.h:169:19:vswprintf	40	static
+wchar.h:162:19:swprintf	16	static

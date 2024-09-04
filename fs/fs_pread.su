@@ -1,0 +1,2 @@
+fs.h:1270:9:file_pread	24	static
+unistd.h:329:9:pread	32	static

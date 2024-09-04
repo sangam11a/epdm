@@ -1,0 +1,5 @@
+lib_hexdumpstream.c:80:12:hexdumpstream_flush	8	static
+lib_hexdumpstream.c:57:15:bin2hex	16	static
+lib_hexdumpstream.c:98:13:hexdumpstream_putc	16	static
+lib_hexdumpstream.c:119:12:hexdumpstream_puts	24	static
+streams.h:440:6:lib_hexdumpstream	0	static

@@ -1,0 +1,2 @@
+lib_getopt_common.c:99:12:getopt_long_option	28	static
+lib_getopt_common.c:337:5:getopt_common	40	static

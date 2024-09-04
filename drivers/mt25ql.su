@@ -1,0 +1,14 @@
+mt25ql.c:374:13:mt25ql_lock	8	static
+mt25ql.c:404:20:mt25ql_unlock	0	static
+mt25ql.c:599:16:mt25ql_readsr.isra.0	16	static
+mt25ql.c:690:13:mt25ql_waitbusy	16	static
+mt25ql.c:1037:16:mt25ql_read	24	static
+mt25ql.c:981:16:mt25ql_bread	16	static
+mt25ql.c:448:13:mt25ql_writeenable.isra.0	8	static
+mt25ql.c:870:13:mt25ql_bytewrite	24	static
+mt25ql.c:1092:16:mt25ql_write	40	static
+mt25ql.c:1009:16:mt25ql_bwrite	48	static
+mt25ql.c:741:19:mt25ql_sectorerase	16	static
+mt25ql.c:913:12:mt25ql_erase	32	static
+mt25ql.c:1166:12:mt25ql_ioctl	16	static
+mt25ql.c:1269:23:mt25ql_initialize	24	static

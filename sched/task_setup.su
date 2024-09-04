@@ -1,0 +1,4 @@
+task_setup.c:371:12:nxthread_setup_scheduler	48	static
+task_setup.c:656:5:nxtask_setup_scheduler	4	static
+task_setup.c:690:5:pthread_setup_scheduler	16	static
+task_setup.c:730:5:nxtask_setup_arguments	48	static

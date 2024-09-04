@@ -1,0 +1,4 @@
+lib_memsostream.c:37:13:memsostream_putc	0	static
+lib_memsostream.c:86:14:memsostream_seek	0	static
+lib_memsostream.c:61:12:memsostream_puts	16	static
+streams.h:344:6:lib_memsostream	0	static

@@ -1,0 +1,5 @@
+lib_blkoutstream.c:46:12:blkoutstream_flush	4	static
+lib_blkoutstream.c:66:12:blkoutstream_puts	48	static
+lib_blkoutstream.c:134:13:blkoutstream_putc	16	static
+streams.h:609:6:lib_blkoutstream_close	8	static
+streams.h:589:5:lib_blkoutstream_open	24	static

@@ -1,0 +1,1 @@
+spawn.h:161:5:posix_spawn_file_actions_addclose	16	static

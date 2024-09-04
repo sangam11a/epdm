@@ -1,0 +1,2 @@
+pthread_findjoininfo.c:58:5:pthread_createjoininfo	16	static
+pthread_findjoininfo.c:133:5:pthread_findjoininfo	8	static

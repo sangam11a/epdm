@@ -1,0 +1,3 @@
+pthread_initialize.c:61:5:pthread_sem_take	8	static
+pthread_initialize.c:78:5:pthread_sem_trytake	8	static
+pthread_initialize.c:97:5:pthread_sem_give	8	static

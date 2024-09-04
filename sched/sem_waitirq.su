@@ -1,0 +1,1 @@
+sem_waitirq.c:70:6:nxsem_wait_irq	16	static

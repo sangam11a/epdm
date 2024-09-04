@@ -1,0 +1,5 @@
+poll.h:149:6:poll_default_cb	16	static
+poll.h:150:6:poll_notify	24	static
+fs.h:1434:5:file_poll	24	static
+poll.h:148:5:poll_fdsetup	24	static
+poll.h:142:5:poll	56	static

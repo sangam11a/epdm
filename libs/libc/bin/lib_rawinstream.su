@@ -1,0 +1,3 @@
+lib_rawinstream.c:43:12:rawinstream_getc	16	static
+lib_rawinstream.c:73:12:rawinstream_gets	8	static
+streams.h:399:6:lib_rawinstream	0	static

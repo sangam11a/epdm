@@ -1,0 +1,2 @@
+mm_lock.c:58:5:mm_lock	8	static
+mm_lock.c:107:6:mm_unlock	0	static

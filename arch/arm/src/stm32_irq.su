@@ -1,0 +1,5 @@
+stm32_irq.c:207:12:stm32_irqinfo	8	static
+arch.h:1456:6:up_irqinitialize	8	static
+arch.h:1496:6:up_disable_irq	16	static
+arch.h:1478:6:up_enable_irq	16	static
+stm32_irq.c:457:6:arm_ack_irq	0	static

@@ -1,0 +1,13 @@
+fs_epoll.c:210:12:epoll_do_poll	0	static
+fs_epoll.c:216:12:epoll_do_create	32	static
+fs_epoll.c:159:12:epoll_do_open	16	static
+fs_epoll.c:175:12:epoll_do_close	24	static
+fs_epoll.c:263:12:epoll_setup	32	static
+fs_epoll.c:298:12:epoll_teardown	48	static
+fs_epoll.c:134:26:epoll_head_from_fd	16	static
+epoll.h:134:5:epoll_create	0	static
+epoll.h:135:5:epoll_create1	0	static
+epoll.h:142:6:epoll_close	0	static
+epoll.h:136:5:epoll_ctl	40	static
+epoll.h:139:5:epoll_pwait	32	static
+epoll.h:137:5:epoll_wait	24	static

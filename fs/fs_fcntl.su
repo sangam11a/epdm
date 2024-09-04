@@ -1,0 +1,3 @@
+fs_fcntl.c:47:12:file_vfcntl	24	static
+fs.h:1413:5:file_fcntl	12	static
+fcntl.h:201:5:fcntl	20	static

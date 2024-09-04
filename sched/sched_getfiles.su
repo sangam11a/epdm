@@ -1,0 +1,2 @@
+sched.h:867:22:nxsched_get_files_from_tcb	0	static
+sched.h:885:22:nxsched_get_files	0	static

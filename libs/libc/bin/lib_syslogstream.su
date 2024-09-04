@@ -1,0 +1,3 @@
+lib_syslogstream.c:40:13:syslogstream_putc	8	static
+lib_syslogstream.c:50:12:syslogstream_puts	8	static
+streams.h:510:6:lib_syslogstream	0	static

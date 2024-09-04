@@ -1,0 +1,2 @@
+mq_initialize.c:65:1:mq_msgblockalloc.constprop	16	static
+mq_initialize.c:109:6:nxmq_initialize	8	static

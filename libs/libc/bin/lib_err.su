@@ -1,0 +1,8 @@
+lib_err.c:53:6:vwarn_func	40	static
+lib_err.c:86:6:vwarnx_func	24	static
+lib_err.c:117:6:warn_func	16	static
+lib_err.c:126:6:warnx_func	16	static
+lib_err.c:135:6:verr_func	8	static
+lib_err.c:145:6:verrx_func	8	static
+lib_err.c:155:6:err_func	12	static
+lib_err.c:164:6:errx_func	12	static

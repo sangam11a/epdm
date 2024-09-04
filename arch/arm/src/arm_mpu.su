@@ -1,0 +1,6 @@
+arm_mpu.c:224:14:mpu_allocregion	0	static
+arm_mpu.c:241:9:mpu_log2regionceil	8	static
+arm_mpu.c:262:9:mpu_log2regionfloor	8	static
+arm_mpu.c:288:10:mpu_subregion	0	static
+arm_mpu.c:339:6:mpu_control	0	static
+arm_mpu.c:369:6:mpu_configure_region	32	static

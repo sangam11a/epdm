@@ -1,0 +1,8 @@
+mempool.c:77:20:mempool_add_queue	8	static
+mempool.h:171:5:mempool_init	24	static
+mempool.h:190:11:mempool_alloc	32	static
+mempool.h:203:6:mempool_free	24	static
+mempool.h:219:5:mempool_info	32	static
+mempool.h:270:1:mempool_info_task	12	static
+mempool.h:240:6:mempool_memdump	32	static
+mempool.h:253:5:mempool_deinit	24	static

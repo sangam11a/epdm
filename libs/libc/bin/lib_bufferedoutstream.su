@@ -1,0 +1,4 @@
+lib_bufferedoutstream.c:43:12:bufferedoutstream_flush	8	static
+lib_bufferedoutstream.c:64:12:bufferedoutstream_puts	24	static
+lib_bufferedoutstream.c:96:13:bufferedoutstream_putc	16	static
+streams.h:421:6:lib_bufferedoutstream	0	static

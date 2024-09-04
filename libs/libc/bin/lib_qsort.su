@@ -1,0 +1,3 @@
+lib_qsort.c:100:20:swapfunc	8	static
+lib_qsort.c:112:25:med3	24	static
+stdlib.h:276:11:qsort	56	static

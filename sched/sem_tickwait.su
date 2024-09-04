@@ -1,0 +1,2 @@
+semaphore.h:371:5:nxsem_tickwait	24	static
+semaphore.h:633:5:nxsem_tickwait_uninterruptible	16	static

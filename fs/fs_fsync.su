@@ -1,0 +1,2 @@
+fs.h:1336:5:file_fsync	8	static
+unistd.h:325:9:fsync	16	static

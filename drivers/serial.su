@@ -1,0 +1,15 @@
+serial.c:291:20:uart_putc	16	static
+serial.c:568:12:uart_open	24	static
+serial.c:1588:12:uart_poll	32	static
+serial.c:155:12:uart_putxmitchar	32	static
+serial.c:498:12:uart_tcsendbreak	24	static
+serial.c:1174:16:uart_write	32	static
+serial.c:751:16:uart_read	48	static
+serial.c:1778:13:uart_wakeup	16	static
+serial.c:353:12:uart_tcdrain.isra.0	32	static
+serial.h:358:5:uart_register	16	static
+serial.h:396:6:uart_datareceived	8	static
+serial.h:409:6:uart_datasent	8	static
+serial.c:1343:12:uart_ioctl	24	static
+serial.h:500:6:uart_reset_sem	8	static
+serial.c:683:12:uart_close	16	static

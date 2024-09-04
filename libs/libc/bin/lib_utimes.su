@@ -1,0 +1,2 @@
+time.h:375:5:utimes	24	static
+time.h:377:5:futimesat	272	static

@@ -1,0 +1,1 @@
+spawn.h:214:5:posix_spawnattr_setstackaddr	0	static

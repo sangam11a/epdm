@@ -1,0 +1,3 @@
+mqueue.h:483:5:file_mq_close	0	static
+mqueue.h:207:5:nxmq_close	0	static
+mqueue.h:72:9:mq_close	0	static

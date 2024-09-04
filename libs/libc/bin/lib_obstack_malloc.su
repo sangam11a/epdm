@@ -1,0 +1,3 @@
+lib_obstack_malloc.c:48:13:default_alloc_failed_handler	8	static
+lib_obstack_malloc.c:58:11:lib_obstack_malloc	8	static
+lib_obstack_malloc.c:71:11:lib_obstack_realloc	8	static

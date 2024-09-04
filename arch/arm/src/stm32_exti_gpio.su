@@ -1,0 +1,9 @@
+stm32_exti_gpio.c:67:12:stm32_exti0_isr	0	static
+stm32_exti_gpio.c:88:12:stm32_exti1_isr	0	static
+stm32_exti_gpio.c:109:12:stm32_exti2_isr	0	static
+stm32_exti_gpio.c:130:12:stm32_exti3_isr	0	static
+stm32_exti_gpio.c:151:12:stm32_exti4_isr	0	static
+stm32_exti_gpio.c:172:12:stm32_exti_multiisr.isra.0	48	static
+stm32_exti_gpio.c:216:12:stm32_exti95_isr	0	static
+stm32_exti_gpio.c:221:12:stm32_exti1510_isr	0	static
+stm32_exti_gpio.c:250:5:stm32_gpiosetevent	40	static

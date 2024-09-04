@@ -1,0 +1,1 @@
+spawn.h:164:5:posix_spawn_file_actions_adddup2	24	static

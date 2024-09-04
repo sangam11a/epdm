@@ -1,0 +1,2 @@
+unistd.h:416:9:fpathconf	8	static
+unistd.h:417:9:pathconf	0	static

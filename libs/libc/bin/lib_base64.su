@@ -1,0 +1,2 @@
+resolv.h:39:5:b64_ntop	20	static
+resolv.h:42:5:b64_pton	40	static

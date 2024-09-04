@@ -1,0 +1,4 @@
+spi_driver.c:203:16:spidrvr_read	0	static
+spi_driver.c:213:16:spidrvr_write	0	static
+spi_driver.c:223:12:spidrvr_ioctl	0	static
+spi_transfer.h:161:5:spi_register	32	static

@@ -1,0 +1,2 @@
+crc16.h:59:10:crc16part	8	static
+lib_crc16.c:119:10:crc16full	0	static

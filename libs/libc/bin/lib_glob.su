@@ -1,0 +1,6 @@
+lib_glob.c:367:12:ignore_err	0	static
+lib_glob.c:394:12:sort	0	static
+lib_glob.c:97:12:do_glob	152	static
+lib_glob.c:379:13:freelist.isra.0	8	static
+glob.h:92:5:glob	344	static
+glob.h:104:6:globfree	16	static

@@ -1,0 +1,2 @@
+sched.h:1530:7:nxsched_getpid	0	static
+unistd.h:308:9:getpid	0	static

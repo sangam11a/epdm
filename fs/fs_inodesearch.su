@@ -1,0 +1,2 @@
+fs_inodesearch.c:542:17:inode_nextname	0	static
+fs_inodesearch.c:471:5:inode_search	24	static

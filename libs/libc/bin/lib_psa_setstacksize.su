@@ -1,0 +1,1 @@
+spawn.h:208:5:posix_spawnattr_setstacksize	0	static

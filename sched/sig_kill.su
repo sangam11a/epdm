@@ -1,0 +1,2 @@
+signal.h:412:5:nxsig_kill	32	static
+signal.h:353:6:kill	8	static

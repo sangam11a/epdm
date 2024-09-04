@@ -1,0 +1,2 @@
+lib_fnmatch.c:59:12:fnmatch_one	32	static
+fnmatch.h:103:5:fnmatch	24	static

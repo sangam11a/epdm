@@ -1,0 +1,2 @@
+stdlib.h:134:11:rand	0	static
+stdlib.h:150:11:random	0	static

@@ -1,0 +1,2 @@
+fs_initialize.c:40:12:sync_reboot_handler	8	static
+fs.h:542:6:fs_initialize	8	static

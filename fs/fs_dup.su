@@ -1,0 +1,2 @@
+fs.h:838:5:file_dup	40	static
+unistd.h:323:9:dup	16	static

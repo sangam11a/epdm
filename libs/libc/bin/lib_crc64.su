@@ -1,0 +1,2 @@
+crc64.h:84:10:crc64part	20	static
+lib_crc64.c:286:10:crc64full	8	static

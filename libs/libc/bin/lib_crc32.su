@@ -1,0 +1,2 @@
+crc32.h:59:10:crc32part	12	static
+lib_crc32.c:123:10:crc32full	0	static

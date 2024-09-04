@@ -1,0 +1,3 @@
+stm32_spi.c:54:6:stm32_spidev_initialize	0	static
+stm32_spi.c:213:6:stm32_spi2select	16	static
+stm32_spi.c:227:9:stm32_spi2status	0	static

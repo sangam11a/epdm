@@ -244,9 +244,8 @@ int stm32_bringup(void)
     }
     #if defined(CONFIG_MTD_MT25QL)
       syslog(LOG_SYSLOG, "Configuring the sfm process\n");
-  //     printf("%d %s \n", board_get_manifest()->nmft ,
-	// board_get_manifest()->mfts);
-      //  cubus_mft_configure(board_get_manifest());
+       cubus_mft_configure(board_get_manifest());
+      
       syslog(LOG_SYSLOG, "Completing the sfm process\n");
 
     #endif
@@ -575,15 +574,15 @@ int stm32_bringup(void)
 #endif
 
 #ifdef CONFIG_STM32_OWN_LED
-  printf("External gpio driver initializing...\n");
+  //printf("External gpio driver initializing...\n");
   int retval = etx_gpio_driver_init();
   if (retval == -1)
   {
-    printf("error on initializing gpio driver..\n");
+    //printf("error on initializing gpio driver..\n");
   }
   else
   {
-    printf("Initialized gpio driver successfully");
+    //printf("Initialized gpio driver successfully");
   }
 #endif
   UNUSED(ret);
@@ -593,24 +592,24 @@ int stm32_bringup(void)
   if (mtd == NULL)
   {
     syslog(LOG_ERR, "ERROR: progmem_initialize\n");
-    printf("[BRINGUP: PROGMEM] error initializing progmem\n");
+    //printf("[BRINGUP: PROGMEM] error initializing progmem\n");
   }
   else
   {
     syslog(LOG_INFO, "INFO: Initialized progmem successfully: \n");
-    printf("[BRINGUP: PROGMEM] Initialized progmem sucessfully...\r\n");
+    //printf("[BRINGUP: PROGMEM] Initialized progmem sucessfully...\r\n");
   }
 
   ret = register_mtddriver("/dev/intflash", mtd, 0, mtd);
   if (ret < 0)
   {
     syslog(LOG_ERR, "ERROR: register_mtddriver() failed: %d\n", ret);
-    printf("[BRINGUP: PROGMEM] Error registering mtd driver");
+    //printf("[BRINGUP: PROGMEM] Error registering mtd driver");
   }
   else
   {
     syslog(LOG_INFO, "INFO: registered mtd driver successfully \n");
-    printf("[BRINGUP: PROGMEM] Registerd internal flash mtd driver successfullyy.....\r\n");
+    //printf("[BRINGUP: PROGMEM] Registerd internal flash mtd driver successfullyy.....\r\n");
   }
 #endif
 

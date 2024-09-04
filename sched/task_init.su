@@ -1,0 +1,2 @@
+sched.h:926:5:nxtask_init	40	static
+sched.h:949:6:nxtask_uninit	0	static

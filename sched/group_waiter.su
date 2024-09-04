@@ -1,0 +1,2 @@
+group_waiter.c:50:6:group_add_waiter	0	static
+group_waiter.c:69:6:group_del_waiter	0	static

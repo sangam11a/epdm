@@ -1,0 +1,2 @@
+fs_foreachmountpoint.c:64:12:mountpoint_filter	64	static
+fs_foreachmountpoint.c:143:5:foreach_mountpoint	16	static

@@ -1,0 +1,2 @@
+fs.h:1283:9:file_pwrite	24	static
+unistd.h:330:9:pwrite	32	static

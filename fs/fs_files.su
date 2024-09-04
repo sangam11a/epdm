@@ -1,0 +1,15 @@
+fs_files.c:109:13:task_fssync	24	static
+fs_files.c:58:12:files_extend	24	static
+fs.h:766:6:files_initlist	0	static
+fs.h:776:6:files_releaselist	24	static
+fs.h:805:5:file_allocate_from_tcb	40	static
+fs.h:822:5:file_allocate	40	static
+fs.h:790:5:files_duplist	32	static
+fs.h:982:5:fs_getfilep	24	static
+fs.h:877:5:nx_dup2_from_tcb	40	static
+fs.h:895:5:nx_dup2	16	static
+unistd.h:324:9:dup2	8	static
+fs.h:1025:5:nx_close_from_tcb	40	static
+fs.h:1043:5:nx_close	8	static
+unistd.h:322:9:close	8	static
+unistd.h:436:9:sync	0	static

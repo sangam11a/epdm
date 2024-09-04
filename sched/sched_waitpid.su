@@ -1,0 +1,2 @@
+sched.h:1494:7:nxsched_waitpid	24	static
+wait.h:94:7:waitpid	8	static

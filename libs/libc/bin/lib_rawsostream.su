@@ -1,0 +1,4 @@
+lib_rawsostream.c:117:14:rawsostream_seek	0	static
+lib_rawsostream.c:79:12:rawsostream_puts	16	static
+lib_rawsostream.c:43:13:rawsostream_putc	16	static
+streams.h:402:6:lib_rawsostream	0	static

@@ -47,40 +47,6 @@ bin/lib_assert.o: assert/lib_assert.c \
  /home/sumina/nuttxspace/nuttx/include/nuttx/mm/gran.h \
  /home/sumina/nuttxspace/nuttx/include/nuttx/net/net.h \
  /home/sumina/nuttxspace/nuttx/include/stdlib.h
-bin/lib_builtin_getname.o: builtin/lib_builtin_getname.c \
- /home/sumina/nuttxspace/nuttx/include/nuttx/config.h \
- /home/sumina/nuttxspace/nuttx/include/nuttx/lib/builtin.h \
- /home/sumina/nuttxspace/nuttx/include/sys/types.h \
- /home/sumina/nuttxspace/nuttx/include/nuttx/compiler.h \
- /home/sumina/nuttxspace/nuttx/include/stdint.h \
- /home/sumina/nuttxspace/nuttx/include/arch/types.h \
- /home/sumina/nuttxspace/nuttx/include/arch/inttypes.h \
- /home/sumina/nuttxspace/nuttx/include/limits.h \
- /home/sumina/nuttxspace/nuttx/include/arch/limits.h
-bin/lib_builtin_isavail.o: builtin/lib_builtin_isavail.c \
- /home/sumina/nuttxspace/nuttx/include/nuttx/config.h \
- /home/sumina/nuttxspace/nuttx/include/string.h \
- /home/sumina/nuttxspace/nuttx/include/nuttx/compiler.h \
- /home/sumina/nuttxspace/nuttx/include/stddef.h \
- /home/sumina/nuttxspace/nuttx/include/sys/types.h \
- /home/sumina/nuttxspace/nuttx/include/stdint.h \
- /home/sumina/nuttxspace/nuttx/include/arch/types.h \
- /home/sumina/nuttxspace/nuttx/include/arch/inttypes.h \
- /home/sumina/nuttxspace/nuttx/include/limits.h \
- /home/sumina/nuttxspace/nuttx/include/arch/limits.h \
- /home/sumina/nuttxspace/nuttx/include/alloca.h \
- /home/sumina/nuttxspace/nuttx/include/errno.h \
- /home/sumina/nuttxspace/nuttx/include/nuttx/lib/builtin.h
-bin/lib_builtin_forindex.o: builtin/lib_builtin_forindex.c \
- /home/sumina/nuttxspace/nuttx/include/nuttx/config.h \
- /home/sumina/nuttxspace/nuttx/include/nuttx/lib/builtin.h \
- /home/sumina/nuttxspace/nuttx/include/sys/types.h \
- /home/sumina/nuttxspace/nuttx/include/nuttx/compiler.h \
- /home/sumina/nuttxspace/nuttx/include/stdint.h \
- /home/sumina/nuttxspace/nuttx/include/arch/types.h \
- /home/sumina/nuttxspace/nuttx/include/arch/inttypes.h \
- /home/sumina/nuttxspace/nuttx/include/limits.h \
- /home/sumina/nuttxspace/nuttx/include/arch/limits.h
 bin/lib_isalnum.o: ctype/lib_isalnum.c \
  /home/sumina/nuttxspace/nuttx/include/ctype.h \
  /home/sumina/nuttxspace/nuttx/include/nuttx/compiler.h \

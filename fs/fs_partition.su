@@ -1,0 +1,3 @@
+fs_partition.c:157:5:read_partition_block	16	static
+partition.h:79:5:parse_block_partition	120	static
+partition.h:100:5:parse_mtd_partition	56	static

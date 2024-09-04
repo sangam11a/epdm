@@ -1,0 +1,4 @@
+fs_stat.c:253:5:inode_stat	64	static
+fs.h:1476:5:nx_stat	56	static
+stat.h:179:5:stat	8	static
+stat.h:180:5:lstat	8	static

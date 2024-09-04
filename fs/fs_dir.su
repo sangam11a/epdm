@@ -1,0 +1,6 @@
+fs_dir.c:546:12:dir_ioctl	8	static
+fs_dir.c:456:16:dir_read	16	static
+fs_dir.c:402:12:dir_close	16	static
+fs_dir.c:506:14:dir_seek	72	static
+fs_dir.c:572:5:dir_allocate	288	static
+fs_dir.c:395:12:dir_open	0	static

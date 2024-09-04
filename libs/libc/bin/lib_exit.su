@@ -1,0 +1,3 @@
+stdlib.h:168:11:exit	8	static
+stdlib.h:169:11:quick_exit	8	static
+stdlib.h:177:11:_Exit	8	static

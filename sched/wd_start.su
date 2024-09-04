@@ -1,0 +1,2 @@
+wdog.h:129:5:wd_start	32	static
+wd_start.c:415:6:wd_timer	16	static

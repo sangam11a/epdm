@@ -1,0 +1,5 @@
+lib_mtdoutstream.c:48:12:mtdoutstream_flush	24	static
+lib_mtdoutstream.c:83:12:mtdoutstream_puts	56	static
+lib_mtdoutstream.c:201:13:mtdoutstream_putc	16	static
+streams.h:649:6:lib_mtdoutstream_close	8	static
+streams.h:629:5:lib_mtdoutstream_open	24	static

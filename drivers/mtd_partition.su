@@ -1,0 +1,7 @@
+mtd_partition.c:216:12:part_erase	8	static
+mtd_partition.c:252:16:part_bread	12	static
+mtd_partition.c:283:16:part_bwrite	12	static
+mtd_partition.c:314:16:part_read	16	static
+mtd_partition.c:392:12:part_ioctl	24	static
+mtd_partition.c:352:16:part_write	16	static
+mtd.h:257:23:mtd_partition	80	static

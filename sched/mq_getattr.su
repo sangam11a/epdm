@@ -1,0 +1,2 @@
+mqueue.h:704:5:file_mq_getattr	0	static
+mqueue.h:86:9:mq_getattr	24	static

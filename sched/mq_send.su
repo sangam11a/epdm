@@ -1,0 +1,3 @@
+mqueue.h:538:5:file_mq_send	32	static
+mqueue.h:262:5:nxmq_send	24	static
+mqueue.h:74:9:mq_send	8	static

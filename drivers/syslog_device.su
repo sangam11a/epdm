@@ -1,0 +1,8 @@
+syslog_device.c:631:12:syslog_dev_force	0	static
+syslog_device.c:651:12:syslog_dev_flush	0	static
+syslog_device.c:175:12:syslog_dev_open	24	static
+syslog_device.c:738:6:syslog_dev_uninitialize	8	static
+syslog_device.c:291:12:syslog_dev_outputready	16	static
+syslog_device.c:538:12:syslog_dev_putc	32	static
+syslog_device.c:385:16:syslog_dev_write	40	static
+syslog_device.c:699:30:syslog_dev_initialize	24	static

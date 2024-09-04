@@ -1,0 +1,2 @@
+time.h:209:16:gmtime	0	static
+time.h:212:16:localtime	0	static

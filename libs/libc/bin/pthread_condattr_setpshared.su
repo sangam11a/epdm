@@ -1,0 +1,1 @@
+pthread.h:625:5:pthread_condattr_setpshared	0	static

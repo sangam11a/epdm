@@ -1,0 +1,2 @@
+stm32_timerisr.c:88:12:stm32_timerisr	8	static
+arch.h:1601:6:up_timer_initialize	8	static

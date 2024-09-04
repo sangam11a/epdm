@@ -1,0 +1,2 @@
+fs_mtdpartition.c:62:5:register_partition_with_mtd	16	static
+fs.h:701:5:register_mtdpartition	40	static

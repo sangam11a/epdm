@@ -1,0 +1,2 @@
+sched.h:1020:5:nxtask_delete	16	static
+sched.h:229:8:task_delete	8	static

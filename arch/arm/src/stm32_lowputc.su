@@ -1,0 +1,2 @@
+stm32_lowputc.c:394:6:arm_lowputc	0	static
+stm32_lowputc.c:432:6:stm32_lowsetup	8	static

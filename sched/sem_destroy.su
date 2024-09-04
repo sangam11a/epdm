@@ -1,0 +1,2 @@
+semaphore.h:196:5:nxsem_destroy	0	static
+semaphore.h:165:12:sem_destroy	8	static

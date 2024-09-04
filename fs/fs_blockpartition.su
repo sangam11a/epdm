@@ -1,0 +1,8 @@
+fs_blockpartition.c:98:12:part_open	0	static
+fs_blockpartition.c:121:12:part_close	0	static
+fs_blockpartition.c:142:16:part_read	12	static
+fs_blockpartition.c:165:16:part_write	12	static
+fs_blockpartition.c:189:12:part_geometry	16	static
+fs_blockpartition.c:211:12:part_ioctl	16	static
+fs_blockpartition.c:319:5:register_partition_with_inode	72	static
+fs.h:624:5:register_blockpartition	40	static

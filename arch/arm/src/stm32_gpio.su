@@ -1,0 +1,5 @@
+stm32_gpio.c:222:6:stm32_gpioinit	0	static
+stm32_gpio.c:251:5:stm32_configgpio	28	static
+stm32_gpio.c:711:5:stm32_unconfiggpio	0	static
+stm32_gpio.c:740:6:stm32_gpiowrite	4	static
+stm32_gpio.c:811:6:stm32_gpioread	0	static

@@ -1,0 +1,2 @@
+streams.h:701:5:lib_vsprintf	16	static
+lib_libvsprintf.c:174:12:vsprintf_internal.constprop	72	static

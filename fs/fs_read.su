@@ -1,0 +1,3 @@
+fs.h:1179:9:file_read	4	static
+fs.h:1202:9:nx_read	24	static
+unistd.h:327:9:read	8	static

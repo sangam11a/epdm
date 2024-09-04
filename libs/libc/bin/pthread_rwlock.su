@@ -1,0 +1,3 @@
+pthread.h:691:5:pthread_rwlock_init	16	static
+pthread.h:690:5:pthread_rwlock_destroy	16	static
+pthread.h:707:5:pthread_rwlock_unlock	16	static

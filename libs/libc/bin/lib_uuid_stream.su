@@ -1,0 +1,4 @@
+uuid.h:99:10:uuid_enc_le	0	static
+uuid.h:100:10:uuid_dec_le	0	static
+uuid.h:101:10:uuid_enc_be	8	static
+uuid.h:102:10:uuid_dec_be	8	static

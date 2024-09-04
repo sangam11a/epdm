@@ -1,0 +1,2 @@
+fs.h:1348:5:file_truncate	0	static
+unistd.h:331:9:ftruncate	24	static

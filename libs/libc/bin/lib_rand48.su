@@ -1,0 +1,10 @@
+lib_rand48.c:52:17:rand48_step.constprop	20	static
+stdlib.h:136:25:seed48	0	static
+stdlib.h:137:11:srand48	16	static
+stdlib.h:135:11:lcong48	0	static
+stdlib.h:139:11:jrand48	8	static
+stdlib.h:141:11:mrand48	0	static
+stdlib.h:142:11:nrand48	8	static
+stdlib.h:140:11:lrand48	0	static
+stdlib.h:145:11:erand48	8	static
+stdlib.h:144:11:drand48	0	static

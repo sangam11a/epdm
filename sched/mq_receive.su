@@ -1,0 +1,3 @@
+mqueue.h:615:9:file_mq_receive	32	static
+mqueue.h:338:9:nxmq_receive	24	static
+mqueue.h:78:9:mq_receive	8	static

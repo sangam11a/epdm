@@ -1,0 +1,2 @@
+semaphore.h:512:5:nxsem_set_protocol	0	static
+semaphore.h:217:5:sem_setprotocol	8	static

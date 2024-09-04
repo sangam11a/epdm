@@ -1,9 +1,9 @@
 #ifndef __BOARDS_ARM_STM32_STM32F103_MINIMUM_SRC_CUBUS_MTD_H
 #define __BOARDS_ARM_STM32_STM32F103_MINIMUM_SRC_CUBUS_MTD_H
 #include <nuttx/config.h>
-#include <stm32_gpio.h>
+// #include <stm32_gpio.h>
 #include <stdbool.h>
-#include <stdio.h>
+// #include <stdio.h>
 #include <debug.h>
 #include <errno.h>
 #include <string.h>

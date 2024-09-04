@@ -1,0 +1,2 @@
+symtab_sortbyname.c:37:12:symtab_comparename	0	static
+symtab.h:120:6:symtab_sortbyname	0	static

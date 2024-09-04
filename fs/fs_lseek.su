@@ -1,0 +1,3 @@
+fs.h:1308:7:file_seek	16	static
+fs.h:1324:7:nx_seek	24	static
+unistd.h:326:9:lseek	8	static

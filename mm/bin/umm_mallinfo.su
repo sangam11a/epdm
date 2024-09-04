@@ -1,0 +1,2 @@
+malloc.h:86:17:mallinfo	8	static
+malloc.h:88:22:mallinfo_task	8	static

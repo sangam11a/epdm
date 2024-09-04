@@ -1,0 +1,2 @@
+signal.h:157:5:nxsig_ismember	0	static
+signal.h:367:6:sigismember	8	static

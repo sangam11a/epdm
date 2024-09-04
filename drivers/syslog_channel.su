@@ -1,0 +1,4 @@
+syslog_channel.c:219:16:syslog_default_write	16	static
+syslog_channel.c:208:12:syslog_default_putc	0	static
+syslog.h:156:5:syslog_channel	0	static
+syslog.h:174:5:syslog_channel_remove	8	static

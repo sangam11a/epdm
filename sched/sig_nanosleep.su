@@ -1,0 +1,2 @@
+signal.h:531:5:nxsig_nanosleep	48	static
+time.h:242:5:clock_nanosleep	32	static

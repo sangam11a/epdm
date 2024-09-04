@@ -1,0 +1,3 @@
+lib_nulloutstream.c:35:13:nulloutstream_putc	0	static
+lib_nulloutstream.c:42:12:nulloutstream_puts	0	static
+streams.h:492:6:lib_nulloutstream	0	static

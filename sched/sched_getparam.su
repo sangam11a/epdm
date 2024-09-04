@@ -1,0 +1,2 @@
+sched.h:1232:5:nxsched_get_param	16	static
+sched.h:239:8:sched_getparam	8	static

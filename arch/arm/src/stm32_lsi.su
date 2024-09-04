@@ -1,0 +1,2 @@
+stm32_lsi.c:54:6:stm32_rcc_enablelsi	8	static
+stm32_lsi.c:75:6:stm32_rcc_disablelsi	0	static

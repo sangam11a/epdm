@@ -1,0 +1,2 @@
+sched.h:1511:7:nxsched_gettid	0	static
+unistd.h:310:9:gettid	0	static

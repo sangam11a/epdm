@@ -1,0 +1,2 @@
+mqueue.h:681:5:file_mq_setattr	16	static
+mqueue.h:84:9:mq_setattr	24	static

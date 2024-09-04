@@ -1,0 +1,4 @@
+mq_timedreceive.c:67:13:nxmq_rcvtimeout	8	static
+mqueue.h:651:9:file_mq_timedreceive	40	static
+mqueue.h:374:9:nxmq_timedreceive	32	static
+mqueue.h:80:9:mq_timedreceive	16	static

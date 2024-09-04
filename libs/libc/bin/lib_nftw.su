@@ -1,0 +1,3 @@
+lib_nftw.c:40:1:call_nftw	32	static
+lib_nftw.c:84:1:do_nftw	136	static
+ftw.h:220:5:nftw	288	static

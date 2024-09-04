@@ -1,0 +1,2 @@
+termios.h:277:5:cfsetspeed	12	static
+termios.h:265:9:cfgetspeed	0	static

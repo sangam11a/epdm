@@ -1,0 +1,3 @@
+kwork_thread.c:125:12:work_thread	24	static
+wqueue.h:403:6:work_foreach	0	static
+kwork_thread.c:318:5:work_start_highpri	64	static

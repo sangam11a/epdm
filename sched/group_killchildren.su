@@ -1,0 +1,2 @@
+group_killchildren.c:60:12:group_kill_children_handler	8	static
+group_killchildren.c:132:5:group_kill_children	8	static

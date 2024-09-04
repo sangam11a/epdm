@@ -1,0 +1,2 @@
+signal.h:205:5:nxsig_delset	0	static
+signal.h:362:6:sigdelset	8	static

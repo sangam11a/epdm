@@ -1,0 +1,3 @@
+lib_nullinstream.c:34:12:nullinstream_getc	0	static
+lib_nullinstream.c:40:12:nullinstream_gets	0	static
+streams.h:491:6:lib_nullinstream	0	static

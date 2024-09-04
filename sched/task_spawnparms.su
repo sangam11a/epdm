@@ -1,0 +1,3 @@
+task_spawnparms.c:140:5:spawn_execattrs	24	static
+task_spawnparms.c:243:6:spawn_proxyattrs	0	static
+spawn.h:103:5:spawn_file_actions	24	static

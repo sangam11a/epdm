@@ -1,0 +1,3 @@
+sig_action.c:408:6:nxsig_release_action	0	static
+signal.h:338:5:nxsig_action	40	static
+signal.h:358:6:sigaction	8	static

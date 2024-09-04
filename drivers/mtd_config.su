@@ -1,0 +1,12 @@
+mtd_config.c:1048:16:mtdconfig_read	16	static
+mtd_config.c:1711:12:mtdconfig_poll	16	static
+mtd_config.c:241:12:mtdconfig_writebytes	48	static
+mtd_config.c:1033:13:mtdconfig_close	8	static
+mtd_config.c:1008:12:mtdconfig_open	8	static
+mtd_config.c:140:12:mtdconfig_readbytes	40	static
+mtd_config.c:424:13:mtdconfig_findnextentry	32	static
+mtd_config.c:1076:12:mtdconfig_findentry	32	static
+mtd_config.c:322:13:mtdconfig_findfirstentry	32	static
+mtd_config.c:1645:12:mtdconfig_ioctl	104	static
+configdata.h:121:5:mtdconfig_register	64	static
+configdata.h:136:5:mtdconfig_unregister	24	static

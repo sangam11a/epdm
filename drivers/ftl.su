@@ -1,0 +1,8 @@
+ftl.c:130:12:ftl_open	0	static
+ftl.c:207:16:ftl_read	8	static
+ftl.c:502:12:ftl_ioctl	0	static
+ftl.c:148:12:ftl_close	8	static
+ftl.c:464:12:ftl_geometry	8	static
+ftl.c:440:16:ftl_write	48	static
+mtd.h:302:5:ftl_initialize_by_path	16	static
+mtd.h:317:5:ftl_initialize	48	static

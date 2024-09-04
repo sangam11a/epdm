@@ -1,0 +1,2 @@
+timer_settime.c:123:13:timer_timeout	16	static
+time.h:236:5:timer_settime	40	static

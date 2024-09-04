@@ -1,0 +1,2 @@
+semaphore.h:170:5:nxsem_init	0	static
+semaphore.h:164:12:sem_init	8	static

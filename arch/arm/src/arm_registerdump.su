@@ -1,0 +1,2 @@
+arch.h:1868:11:up_getusrsp	0	static
+arch.h:433:6:up_dump_register	0	static

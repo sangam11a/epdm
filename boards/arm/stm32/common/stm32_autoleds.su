@@ -1,0 +1,3 @@
+board.h:548:6:board_autoled_initialize	0	static
+board.h:583:6:board_autoled_on	0	static
+board.h:614:6:board_autoled_off	0	static

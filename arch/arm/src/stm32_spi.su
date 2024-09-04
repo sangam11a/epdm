@@ -1,0 +1,8 @@
+stm32_spi.c:1206:13:spi_modifycr1	0	static
+stm32_spi.c:1300:17:spi_setfrequency	24	static
+stm32_spi.c:1657:17:spi_send	8	static
+stm32_spi.c:1268:12:spi_lock	0	static
+stm32_spi.c:1402:13:spi_setmode	16	static
+stm32_spi.c:1501:13:spi_setbits	24	static
+stm32_spi.c:1709:13:spi_exchange	24	static
+stm32_spi.c:2158:19:stm32_spibus_initialize	16	static

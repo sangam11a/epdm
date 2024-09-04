@@ -1,0 +1,6 @@
+mman.h:185:5:mlock	0	static
+mman.h:186:5:mlockall	0	static
+mman.h:191:5:munlock	0	static
+mman.h:192:5:munlockall	0	static
+mman.h:189:5:mprotect	0	static
+mman.h:196:5:posix_madvise	0	static

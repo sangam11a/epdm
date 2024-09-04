@@ -1,0 +1,7 @@
+mq_open.c:157:12:file_mq_vopen	152	static
+mq_open.c:90:12:nxmq_file_poll	16	static
+mq_open.c:72:12:nxmq_file_close	8	static
+mq_open.c:339:14:nxmq_vopen	48	static
+mqueue.h:457:5:file_mq_open	24	static
+mqueue.h:182:7:nxmq_open	12	static
+mqueue.h:71:9:mq_open	20	static

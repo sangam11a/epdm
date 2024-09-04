@@ -1,0 +1,3 @@
+lib_lowoutstream.c:58:12:lowoutstream_puts	8	static
+lib_lowoutstream.c:44:13:lowoutstream_putc	8	static
+streams.h:461:6:lib_lowoutstream	0	static
