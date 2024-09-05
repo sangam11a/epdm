@@ -42,6 +42,7 @@
 #include <nuttx/spi/spi.h>
 #include <nuttx/mtd/mtd.h>
 
+#include <syslog.h>
 #ifndef MT25QL_H_
 #  define MT25QL_H_
 
@@ -507,14 +508,14 @@ static inline int mt25ql_readid(FAR struct mt25ql_dev_s *priv)
 	SPI_SELECT(priv->dev, SPIDEV_FLASH(0), false);
 	mt25ql_unlock(priv->dev);
 
-	// finfo("Read ID: ");
-	// for(int i=0; i<20; i++){
-	// 	finfo("%02x ", devid[i]);
-	// }
-	// finfo("\n");
-	// manufacturer = devid[0];
-	// memory = devid[1];
-	// capacity = devid[2];
+	syslog(LOG_DEBUG, "Read ID: ");
+	for(int i=0; i<20; i++){
+		syslog(LOG_DEBUG, "%02x ", devid[i]);
+	}
+	syslog(LOG_DEBUG, "\n");
+	manufacturer = devid[0];
+	memory = devid[1];
+	capacity = devid[2];
 
 	/* checking for id validation */
 	if(manufacturer == MT25QL_MANFACTURER && memory == MT25QL_MEMORY_TYPE)
@@ -1305,6 +1306,7 @@ FAR struct mtd_dev_s *mt25ql_initialize(FAR struct spi_dev_s *dev)
       /* Identify the FLASH chip and get its capacity */
 
       ret = mt25ql_readid(priv);
+	  syslog(LOG_DEBUG,"Id is %d\n",ret);
       if (ret != OK)
         {
           /* Unrecognized!

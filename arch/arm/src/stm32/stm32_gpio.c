@@ -797,7 +797,7 @@ void stm32_gpiowrite(uint32_t pinset, bool value)
 # error "Unsupported STM32 chip"
 #endif
     }
-    printf("GPIO write called port%d  pin:%d\n",port, pin);
+    // syslog(LOG_DEBUG, "GPIO write called port%d  pin:%d\n",port, pin);
 }
 
 /****************************************************************************

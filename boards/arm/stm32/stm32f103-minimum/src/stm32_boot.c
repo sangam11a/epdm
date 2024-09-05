@@ -41,11 +41,10 @@
 void board_peripheral_reset(int ms){
   // stm32_gpiowrite(GPIO_CS_MAG, 1);
   usleep(1000 * ms);
-  syslog(LOG_DEBUG, "Reset done in %d ms \n", ms);
-  printf("Reset done.\n");
+  //syslog(LOG_DEBUG, "Reset done in %d ms \n", ms);
 }
 int board_app_initialize(uintptr_t arg){
-  syslog(LOG_SYSLOG, "Initializing board applications \n");
+  //syslog(LOG_SYSLOG, "Initializing board applications \n");
   board_peripheral_reset(10);
   #if defined(CONFIG_STM32_SPI1) || defined(CONFIG_STM32_SPI2)
   stm32_spidev_initialize();
@@ -66,9 +65,9 @@ return stm32_bringup();
 
 void stm32_boardinitialize(void)
 {
-  syslog(LOG_SYSLOG,"Initializing board applications\n");
+  //syslog(LOG_SYSLOG,"Initializing board applications\n");
   // board_peripheral_reset(10);
-  syslog(LOG_SYSLOG, "[Boot] function called \n");
+  //syslog(LOG_SYSLOG, "[Boot] function called \n");
   // stm32_configgpio(GPIO_CS_MAG);
   /* Configure on-board LEDs if LED support has been selected. */
 // int ret = stm32_configgpio(GPIO_CS_MAG);

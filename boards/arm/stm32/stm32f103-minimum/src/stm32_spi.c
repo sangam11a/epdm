@@ -214,7 +214,8 @@ void stm32_spi2select(struct spi_dev_s *dev, uint32_t devid,
                       bool selected)
 {
   spiinfo("devid: %%d CS : %s \n", (int) devid, selected ? "assert" : "de-assert");
-  printf("devid: %%d CS : %s \n", (int) devid, selected ? "assert" : "de-assert");
+  // syslog(LOG_SYSLOG, "devid: %%d CS : %s \n", (int) devid, selected ? "assert" : "de-assert");
+
   
   switch (devid)
   {
