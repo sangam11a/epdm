@@ -59,6 +59,10 @@ void stm32_spidev_initialize(void)
    *       architecture.
    */
 
+#ifdef CONFIG_MTD_MT25QL
+  stm32_configgpio(GPIO_CS_MAG);      /* FLASH chip select */
+#endif
+
 #ifdef CONFIG_MTD_W25
   stm32_configgpio(FLASH_SPI1_CS);      /* FLASH chip select */
 #endif
@@ -216,13 +220,16 @@ void stm32_spi2select(struct spi_dev_s *dev, uint32_t devid,
   spiinfo("devid: %%d CS : %s \n", (int) devid, selected ? "assert" : "de-assert");
   // syslog(LOG_SYSLOG, "devid: %%d CS : %s \n", (int) devid, selected ? "assert" : "de-assert");
 
-  
-  switch (devid)
-  {
-    case SPIDEV_FLASH(0):
+  if (devid == SPIDEV_FLASH(0))
+    {
       stm32_gpiowrite(GPIO_CS_MAG, !selected);
-      break;
-  }
+    }
+  // switch (devid)
+  // {
+  //   case SPIDEV_FLASH(0):
+  //     stm32_gpiowrite(GPIO_CS_MAG, !selected);
+  //     break;
+  // }
 }
 
 uint8_t stm32_spi2status(struct spi_dev_s *dev, uint32_t devid)

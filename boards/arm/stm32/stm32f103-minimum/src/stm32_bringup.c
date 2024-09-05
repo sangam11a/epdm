@@ -222,7 +222,8 @@ static int g_sensor_devno;
 int stm32_bringup(void)
 {
   syslog(LOG_SYSLOG, "**********************************\n********[Bringup function] called\n");
-  int ret1 = stm32_configgpio(GPIO_CS_MAG);
+  int ret1;
+  // ret1 = stm32_configgpio(GPIO_CS_MAG);
   stm32_gpiowrite(GPIO_CS_MAG, true);
   int ret2 = stm32_gpioread(GPIO_CS_MAG);
   syslog(LOG_SYSLOG,"here ret 1 is %d &&ret2 is %d\n",ret1 , ret2);

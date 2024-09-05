@@ -22,7 +22,7 @@ static mtd_instance_s *instances[MAX_MTD_INSTANCES]={};
 
 static const cubus_mft_device_t spi3_dev = {             // MT25QL on FMUM 1Gb 2048 X 64K
 	.type = SPI,
-  .bus_id   = 1,
+  .bus_id   = 2,
 	.devid    = SPIDEV_FLASH(0)
 };
 
@@ -70,7 +70,7 @@ static const cubus_mtd_entry_t cubus_sfm = {
 static const cubus_mtd_manifest_t board_mtd_config = {
 	.nconfigs   = 2,
 	.entries = {
-		&cubus_mfm,
+		&cubus_sfm,
 		&cubus_sfm,
 	}
 };
@@ -118,7 +118,7 @@ int mt25ql_attach(mtd_instance_s *instance)
 		SPI_SELECT(spi, instance->devid, false);
 		SPI_LOCK(spi, false);
 
-		instance->mtd_dev = m25p_initialize(spi);//mt25ql_initialize(spi);
+		instance->mtd_dev = mt25ql_initialize(spi);
 
 		if (instance->mtd_dev) {
 			/* abort on first valid result */
